@@ -2,6 +2,8 @@
 
 This project visualizes Kickstarter pledges data using a treemap chart with D3.js. The data is sourced from JSON files hosted on GitHub and includes Kickstarter funding data, movie sales data, and video game sales data.
 
+[View it here](https://agmt92.github.io/kickstarter-pledges-treamap-d3/)
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
