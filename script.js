@@ -94,18 +94,9 @@ const drawChart = (url) => {
 
             const categories = root.leaves().map(d => d.data.category);
             const uniqueCategories = categories.filter((category, index) => categories.indexOf(category) === index);
-            const titleStrings = data.name;
             const legendWidth = 650;
             const legendRectSize = 25;
             const legendSpacing = 20;
-
-            d3.select("body")
-                .append("h1")
-                .attr("id", "title")
-                .text(titleStrings)
-                .append("p")
-                .attr("id", "description")
-                .text('')
 
             const legend = d3.select("#chart")
                 .append("svg")

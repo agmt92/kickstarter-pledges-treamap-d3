@@ -1,6 +1,6 @@
-# US GDP Visualization
+# Kickstarter Pledges Visualization
 
-This project visualizes the US GDP data using a treemap chart with D3.js. The data is sourced from JSON files hosted on GitHub and includes Kickstarter funding data, movie sales data, and video game sales data.
+This project visualizes Kickstarter pledges data using a treemap chart with D3.js. The data is sourced from JSON files hosted on GitHub and includes Kickstarter funding data, movie sales data, and video game sales data.
 
 ## Table of Contents
 
@@ -35,22 +35,22 @@ This project aims to provide a visual representation of various datasets using a
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/us-gdp-visualization.git
-    cd us-gdp-visualization
+    git clone https://github.com/your-username/kickstarter-pledges-visualization.git
+    cd kickstarter-pledges-visualization
     ```
 
 2. **Open the project**:
-    Open [`index.html`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Fag%2FGitHub%2FD3%20SVG%2Ftree-map%2Findex.html%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/ag/GitHub/D3 SVG/tree-map/index.html") in your preferred web browser.
+    Open `index.html` in your preferred web browser.
 
 ## Usage
 
-- Open [`index.html`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Fag%2FGitHub%2FD3%20SVG%2Ftree-map%2Findex.html%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/ag/GitHub/D3 SVG/tree-map/index.html") in a web browser to view the treemap chart.
+- Open `index.html` in a web browser to view the treemap chart.
 - Use the navbar to switch between different datasets (Kickstarter, Movie, Video Game).
 
 ## Project Structure
 
 ```
-us-gdp-visualization/
+kickstarter-pledges-visualization/
 │
 ├── index.html          # Main HTML file
 ├── script.js           # JavaScript file containing D3.js code
